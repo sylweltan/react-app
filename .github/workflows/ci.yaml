@@ -16,7 +16,7 @@ jobs:
           path: ~/.npm
           #key: mykey
           key: nodecache-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-          restore-key: |
+          restore-keys: |
             nodecache-${{ runner.os }}-
       - name: Use NodeJS
         uses: actions/setup-node@v1
