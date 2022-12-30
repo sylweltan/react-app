@@ -40,7 +40,7 @@ jobs:
         with:
           name: build
           path: build
-      - uses: actions/download-artifacts
+      - uses: actions/download-artifact
 
       - run: npm install -g surge
       - name: Deploy to Staging
