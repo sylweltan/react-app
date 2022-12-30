@@ -10,6 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Cache node_modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          #key: mykey
+          key: nodecache-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-key: |
+            nodecache-${{ runner.os }}-
       - name: Use NodeJS
         uses: actions/setup-node@v1
         with:
