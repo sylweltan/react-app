@@ -89,5 +89,4 @@ jobs:
           BODY1: "This issue was automatically created by the GitHub Action workflow **${{ github.workflow }}**."
           BODY2: "The commit hash was: _${{ github.sha }}_."
           ASSIGNEES: "${{ github.event.pull_request.user.login }}"
-
 #--data '{"title": "Automated issue for commit: ${{ github.sha }}", "body": "${{ BODY1 }} \n\n ${{ BODY2 }}", "assignees": "${{ ASSIGNEES }}"}'
