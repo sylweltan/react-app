@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Badges
+
+[![codecov](https://codecov.io/github/sylweltan/react-app/branch/master/graph/badge.svg?token=VRK905TGY7)](https://codecov.io/github/sylweltan/react-app)
+
 ## Available Scripts
 
 In the project directory, you can run:
