@@ -45,6 +45,7 @@ jobs:
         with:
           name: code-coverage
       - uses: actions/download-artifact@v3
+        if: github.event_name == 'push'
         with:
           name: build
       - run: npm install -g surge
