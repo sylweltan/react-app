@@ -1,6 +1,6 @@
 name: Notify on Release
 on:
-#  push
+  #  push
   release:
     type: [published]
 
