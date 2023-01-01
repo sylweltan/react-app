@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Badges
 
 [![codecov](https://codecov.io/github/sylweltan/react-app/branch/master/graph/badge.svg?token=VRK905TGY7)](https://codecov.io/github/sylweltan/react-app)
+![](https://github.com/sylweltan/react-app/workflows/CI/badge.svg?branch=develop&event=push)
 
 ## Available Scripts
 

@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Error Spot React with Github
+          Learn React with Github
         </a>
       </header>
     </div>
